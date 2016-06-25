@@ -7,7 +7,11 @@ Rails.application.routes.draw do
   root 'welcome#index'
   get 'my_portfolio', to: "users#my_portfolio"
   get 'search_stocks', to: "stocks#search"
+
+    
   
+  ## Route for view that has chart ##
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
